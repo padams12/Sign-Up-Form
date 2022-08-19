@@ -1,0 +1,8 @@
+.container_1 {
+
+    height: 120px;
+    padding: 14px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
