@@ -2,7 +2,27 @@
 
     height: 120px;
     padding: 14px;
-    background: #1F2937;
+    background: #577bae;
     display: flex;
     justify-content: space-between;
+    border: 20px solid blue;
+}
+
+.container_2 {
+
+    height: 120px;
+    padding: 14px;
+    background: #577bae;
+    display: flex;
+    justify-content: space-between;
+    border: 20px solid blue;
+
+
+}
+
+img {
+
+    width: auto;
+    height: 1200px;
+
 }
