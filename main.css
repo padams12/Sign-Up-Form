@@ -2,7 +2,7 @@
 
     height: 2000px;
     padding: 14px;
-    background: #577bae;
+    background: #2d3d54;
     display: flex;
     justify-content: space-between;
     border: 20px solid blue;
@@ -16,15 +16,15 @@
 
     height: 120px;
     padding: 14px;
-    background: #577bae;
+    background: #2d3d54;
     border: 10px solid red;
 }
 
 .container_2 {
 
-    height: 120px;
+    height: 400px;
     padding: 14px;
-    background: #577bae;
+    background: #2d3d54;
     border: 10px solid red;
 
 }
@@ -34,4 +34,46 @@ img {
     width: auto;
     height: 1200px;
 
+}
+
+.heading {
+
+    height: 100px;
+    width: auto;
+    background: #2d3d54;
+
+
+}
+
+body {
+
+    background: #2d3d54;
+}
+
+.currentUser,
+.currentUserLink {
+
+    font-size: larger;
+    color: aliceblue;
+}
+
+label {
+
+    font-size: larger;
+    color: aliceblue;
+}
+
+legend {
+
+    font-size: larger;
+    color: aliceblue;
+
+
+}
+
+h1,
+h2,
+h3 {
+
+    color: aliceblue;
 }
