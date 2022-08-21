@@ -1,11 +1,24 @@
-.container_1 {
+.master_container {
 
-    height: 120px;
+    height: 2000px;
     padding: 14px;
     background: #577bae;
     display: flex;
     justify-content: space-between;
     border: 20px solid blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+
+.container_1 {
+
+    height: 120px;
+    padding: 14px;
+    background: #577bae;
+    border: 10px solid red;
 }
 
 .container_2 {
@@ -13,10 +26,7 @@
     height: 120px;
     padding: 14px;
     background: #577bae;
-    display: flex;
-    justify-content: space-between;
-    border: 20px solid blue;
-
+    border: 10px solid red;
 
 }
 
