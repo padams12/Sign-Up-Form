@@ -4,7 +4,19 @@ let userPasswordResult = document.querySelector("#passwordResult"); //Select pas
 
 function confirmUserPassword() {
 
-    userPasswordResult.innerText = userPassword.value == userConfirmPassword.value ? "Passwords match!" : "Passwords do not match!";
+    //userPasswordResult.innerText = userPassword.value == userConfirmPassword.value ? "Passwords match!" : "Passwords do not match!";
+
+    if (userPassword.value == userConfirmPassword.value) {
+
+        userPasswordResult.style.color = "green"; //Set green color for match.
+        userPasswordResult.innerText = "Passwords Match!";
+    }
+
+    else {
+
+        userPasswordResult.style.color = "red"; //Set red color for mismatch.
+        userPasswordResult.innerText = "Passwords do not match!";
+    }
 
 }
 
